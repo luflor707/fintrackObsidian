@@ -1,0 +1,40 @@
+:root {
+  --ft-architecture: #6366f1;
+  --ft-workflow: #06b6d4;
+  --ft-specs: #f59e0b;
+  --ft-development: #10b981;
+  --ft-documentation: #8b5cf6;
+}
+
+.ft-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.8rem;
+  margin: 1rem 0;
+}
+
+.callout[data-callout="architecture"] { --callout-color: 99, 102, 241; --callout-icon: lucide-layers-3; }
+.callout[data-callout="workflow"] { --callout-color: 6, 182, 212; --callout-icon: lucide-repeat-2; }
+.callout[data-callout="specs"] { --callout-color: 245, 158, 11; --callout-icon: lucide-ruler; }
+.callout[data-callout="development"] { --callout-color: 16, 185, 129; --callout-icon: lucide-hammer; }
+.callout[data-callout="documentation"] { --callout-color: 139, 92, 246; --callout-icon: lucide-library; }
+
+.callout[data-callout="architecture"],
+.callout[data-callout="workflow"],
+.callout[data-callout="specs"],
+.callout[data-callout="development"],
+.callout[data-callout="documentation"] {
+  border-left-width: 4px;
+  min-height: 7rem;
+  transition: transform 120ms ease, box-shadow 120ms ease;
+}
+
+.callout[data-callout="architecture"]:hover,
+.callout[data-callout="workflow"]:hover,
+.callout[data-callout="specs"]:hover,
+.callout[data-callout="development"]:hover,
+.callout[data-callout="documentation"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+

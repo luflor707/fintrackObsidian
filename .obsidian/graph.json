@@ -1,0 +1,86 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:#grupo/mapa",
+      "color": {
+        "a": 1,
+        "rgb": 9323693
+      }
+    },
+    {
+      "query": "tag:#grupo/arquitectura",
+      "color": {
+        "a": 1,
+        "rgb": 5533306
+      }
+    },
+    {
+      "query": "tag:#grupo/proceso",
+      "color": {
+        "a": 1,
+        "rgb": 440020
+      }
+    },
+    {
+      "query": "tag:#grupo/specs",
+      "color": {
+        "a": 1,
+        "rgb": 16361509
+      }
+    },
+    {
+      "query": "tag:#grupo/desarrollo",
+      "color": {
+        "a": 1,
+        "rgb": 3046706
+      }
+    },
+    {
+      "query": "tag:#grupo/documentacion",
+      "color": {
+        "a": 1,
+        "rgb": 9323693
+      }
+    },
+    {
+      "query": "tag:#grupo/frontend",
+      "color": {
+        "a": 1,
+        "rgb": 14162784
+      }
+    },
+    {
+      "query": "tag:#grupo/backend",
+      "color": {
+        "a": 1,
+        "rgb": 1402304
+      }
+    },
+    {
+      "query": "tag:#grupo/contrato",
+      "color": {
+        "a": 1,
+        "rgb": 12597547
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.7,
+  "repelStrength": 6,
+  "linkStrength": 1.3,
+  "linkDistance": 180,
+  "scale": 0.7132754626224395,
+  "close": true
+}
